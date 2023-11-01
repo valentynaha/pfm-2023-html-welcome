@@ -1,3 +1,8 @@
+body {
+    background-color: cadetblue;
+}
+
+
 .textColor {
 color: red;
 }
@@ -24,4 +29,18 @@ color: red;
 
 .secondP1 {
     color: darkgreen;
+}
+
+.firstDiv {
+    background-color: burlywood;
+    padding: 30px;
+    margin: 10px;
+    border: 3px solid blue;
+}
+
+.secondDiv {
+    background-color: burlywood;
+    padding: 30px;
+    margin: 10px;
+    border: 3px solid blue
 }
