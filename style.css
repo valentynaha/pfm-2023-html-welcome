@@ -1,11 +1,27 @@
-p {
-    color: purple;
-}
-
 .textColor {
 color: red;
 }
 
 #lastOne {
     color: green;
+}
+
+#firstP1 {
+    color: blue;
+}
+
+.firstP {
+    color: red;
+    background-color: rgb(143, 143, 208);
+}
+
+
+
+.secondP {
+    color: hotpink;
+    background-color: burlywood;
+}
+
+.secondP1 {
+    color: darkgreen;
 }
