@@ -1,4 +1,6 @@
 body {
+    margin: 0;
+    overflow-y: hidden;
     background-color: cadetblue;
 }
 
@@ -69,4 +71,13 @@ img {
 
 .circleThird {
     background-color: chartreuse;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./assets/img/38702E91-D6F1-4A46-ADF8-0A43D274BCC6_1_105_c.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
