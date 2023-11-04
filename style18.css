@@ -37,22 +37,21 @@ li:nth-child(even) {
     display: inline-block;
     width: 100px;
     height: 100px;
-    /* background-color: red; */
+    background-color: red;
     margin-bottom: 30px;
 }
 
-.box:nth-child(odd) {
+/* .box:nth-child(odd) {
     background-color: red;
-}
+} */
 
 .box:nth-child(even) {
     background-color: green;
 }
 
-.box:nth-child(3n) {
+.box:nth-child(3n+1) {
     background-color: blue;
 }
 
-/* .box:nth-child(3n+5) {
-    color: blue;
-} */
+
+
