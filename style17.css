@@ -56,6 +56,25 @@ div {
   background-color: rgb(90, 190, 156);
 }
 
+.page-link:focus {
+    color: green;
+    outline: gold solid 1px;
+  }
+
+.button {
+    background-color: cadetblue;
+    color: black;
+    padding: 10px 15px;
+    font-size: 25px;
+    width: 100px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: rgb(21, 87, 65);
+}
+
 article div, article section {
     background-color: hotpink;
 border-radius: 50%;
