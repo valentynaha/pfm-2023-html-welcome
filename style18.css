@@ -1,0 +1,58 @@
+/* li:first-child {
+  color: blue;
+}
+
+ul:first-of-type {
+    color: chocolate;
+} */
+
+/* ul:first-of-type li:first-child {
+    color: rgb(28, 216, 28);
+} 
+
+li:last-child {
+    color: red;
+}
+
+li:last-of-type {
+    color: blue;
+}
+ul:last-of-type li:last-child {
+    color: hotpink;
+} */
+
+
+/* :nth-child() */
+
+li:nth-child(even) {
+    color: darkorange;
+}
+
+/* 
+2n   - even - кожна друга(парна) дитина
+2n+1 - odd  - кожна непарна дитина
+*/
+
+.box {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    /* background-color: red; */
+    margin-bottom: 30px;
+}
+
+.box:nth-child(odd) {
+    background-color: red;
+}
+
+.box:nth-child(even) {
+    background-color: green;
+}
+
+.box:nth-child(3n) {
+    background-color: blue;
+}
+
+/* .box:nth-child(3n+5) {
+    color: blue;
+} */
