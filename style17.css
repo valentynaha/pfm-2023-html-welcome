@@ -1,0 +1,24 @@
+h2 ~ p {
+  color: purple;
+}
+
+h2 + p {
+  color: green;
+}
+
+section {
+  background-color: aqua;
+}
+
+div {
+  width: 50px;
+  height: 50px;
+  background-color: black;
+  display: inline-block;
+  border-radius: 50%;
+}
+
+.box ~ .box {
+    margin: 0 20px;
+}
+
