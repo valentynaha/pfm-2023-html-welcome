@@ -55,3 +55,27 @@ div {
   color: red;
   background-color: rgb(90, 190, 156);
 }
+
+article div, article section {
+    background-color: hotpink;
+border-radius: 50%;
+width: 100px;
+height: 100px;
+display: inline-block;
+margin: 10px;
+}
+
+
+/* first variant */
+
+/* article div:hover {
+    background-color: brown;
+cursor: pointer;
+} */
+
+/* second */
+
+.hover-div:hover:not(section) {
+    background-color: blue;
+    cursor: pointer;
+}
