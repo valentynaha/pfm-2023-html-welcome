@@ -21,11 +21,10 @@ ul:last-of-type li:last-child {
     color: hotpink;
 } */
 
-
 /* :nth-child() */
 
 li:nth-child(even) {
-    color: darkorange;
+  color: darkorange;
 }
 
 /* 
@@ -40,11 +39,11 @@ blue: 3,6
 */
 
 .box {
-    display: inline-block;
-    width: 100px;
-    height: 100px;
-    background-color: red;
-    margin-bottom: 30px;
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  margin-bottom: 30px;
 }
 
 /* .box:nth-child(odd) {
@@ -52,12 +51,67 @@ blue: 3,6
 } */
 
 .box:nth-child(even) {
+  background-color: green;
+}
+
+.box:nth-child(3n + 1) {
+  background-color: blue;
+}
+
+/* task table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+  font-size: 17px;
+ font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  margin-bottom: 50px;
+}
+
+thead {
+  background-color: blue;
+  /* border: 5px solid red; */
+}
+
+td {
+    padding: 10px 0;
+}
+tr {
+    height: 50px;
+}
+
+span {
+  display: block;
+}
+
+tbody {
+    color: lightgray;
+ }
+
+ tbody tr:nth-child(2n) {
+    background-color: rgb(184, 182, 182);
+  }
+
+  /* tbody td:first-child, tfoot td:first-child {
     background-color: green;
+  } */
+tbody td:first-child, tfoot td:first-child {
+    background-color: green;
+  }
+
+tfoot{
+    color: lightgray;
 }
 
-.box:nth-child(3n+1) {
-    background-color: blue;
+button {
+    min-width: 100px;
+    padding: 5px 10px;
+    color: lightgray;
+    background-color: rgb(34, 34, 187);
+    border: none;
+    border-radius: 10px;
+    font-size: inherit;
+    font-family: inherit;
+    cursor: pointer;
 }
-
-
-
