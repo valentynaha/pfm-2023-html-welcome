@@ -33,6 +33,12 @@ li:nth-child(even) {
 2n+1 - odd  - кожна непарна дитина
 */
 
+/* task
+green: 2,4,8
+red: 1,5,7
+blue: 3,6
+*/
+
 .box {
     display: inline-block;
     width: 100px;
