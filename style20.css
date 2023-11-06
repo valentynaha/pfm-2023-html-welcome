@@ -19,7 +19,7 @@ body {
 }
 
 .container {
-    height: 800px;
+    height: 1800px;
     width: 80%;
     margin: 0 auto;
     background-color: cornflowerblue;
@@ -27,9 +27,10 @@ body {
 }
 
 .wrapper {
+    position: relative;
     background-color: darksalmon;
     width: 80%;
-    height: 800px;
+    height: 1800px;
 }
 
 .inner {
@@ -82,19 +83,26 @@ body {
 /* position:absolute */
 
 .one {
-    position: relative;
+    /* position: relative; */
     top: 20px;
     left: 20px;
 }
 
 .two {
-    position: absolute;
+    /* position: absolute; */
     top: 0;
     left: 0;
 }
 
 .three {
-    position: fixed;
+    /* position: fixed; */
     top: 1em;
     right: 1em;
+}
+
+/* position:sticky */
+
+.four {
+    position: sticky;
+    top: 0;
 }
