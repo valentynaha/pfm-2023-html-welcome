@@ -10,7 +10,9 @@
     background-color: darkorange;
 } */
 
-/*  */
+
+
+/*  task position:fixed */
 
 body {
     margin: 0;
@@ -31,7 +33,6 @@ body {
 }
 
 .inner {
-    position: fixed;
     text-align: center;
     font-size: 1.5em;
     width: 100px;
@@ -52,16 +53,16 @@ body {
     background-color: yellow;
 }
 
-.three:hover {
+/* .three:hover {
     top: 50px;
     right: 50px;
-}
+} */
 
 .four {
     background-color: green;
 }
 
-.bottom {
+/* .bottom {
     bottom: 20px;
 }
 
@@ -75,4 +76,25 @@ body {
 
 .top {
     top: 20px;
+}  */
+
+
+/* position:absolute */
+
+.one {
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+.two {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.three {
+    position: fixed;
+    top: 1em;
+    right: 1em;
 }
