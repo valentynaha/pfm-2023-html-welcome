@@ -77,7 +77,6 @@ p {
 thead {
   font-size: 1.1em;
   background-color: blue;
-
 }
 
 thead td:first-child {
@@ -109,16 +108,18 @@ tbody tr:nth-child(2n) {
   background-color: #e9eaed;
 }
 
-tbody td:first-child, tfoot td:first-child {
+tbody td:first-child,
+tfoot td:first-child {
   color: white;
   font-weight: 800;
 }
 
-tbody tr:nth-child(odd) td:first-child, tfoot tr:nth-child(odd) td:first-child {
+tbody tr:nth-child(odd) td:first-child,
+tfoot tr:nth-child(odd) td:first-child {
   background-color: #4aa556;
 }
 
-tbody tr:nth-child(even) td:first-child{
+tbody tr:nth-child(even) td:first-child {
   background-color: #60d055;
 }
 
