@@ -1,4 +1,4 @@
-body {
+/* body {
     height: 500vh;
 }
 
@@ -8,4 +8,63 @@ body {
     left: 50px;
     margin-bottom: 20px;
     background-color: darkorange;
+} */
+
+/*  */
+
+body {
+    margin: 0;
+}
+
+.container {
+    height: 800px;
+    width: 80%;
+    margin: 0 auto;
+    background-color: cornflowerblue;
+
+}
+
+.wrapper {
+    background-color: darksalmon;
+    width: 80%;
+    height: 800px;
+}
+
+.inner {
+    position: fixed;
+    text-align: center;
+    font-size: 1.5em;
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.one {
+    top: 20px;
+    left: 20px;
+    background-color: red;
+}
+
+.two {
+    bottom: 20px;
+    left: 20px;
+    background-color: blue;
+}
+
+.three {
+    top: 20px;
+    right: 20px;
+    background-color: yellow;
+}
+
+.three:hover {
+    top: 50px;
+    right: 50px;
+}
+
+.four {
+    bottom: 20px;
+    right: 20px;
+    background-color: green;
 }
