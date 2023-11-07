@@ -39,4 +39,19 @@
   box-sizing: border-box;
 }
 
+.sub-sub-list {
+    position: absolute;
+    display: none;
+    left: 100%;
+    background-color: rgb(94, 31, 8);
+    top: 0;
+}
 
+.sub-list-item:hover > .sub-sub-list {
+    display: block;
+}
+
+.sub-sub-list-item {
+    width: 100%;
+    box-sizing: border-box;
+  }
