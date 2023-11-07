@@ -45,6 +45,7 @@
     left: 100%;
     background-color: rgb(94, 31, 8);
     top: 0;
+    width: inherit;
 }
 
 .sub-list-item:hover > .sub-sub-list {
@@ -52,6 +53,24 @@
 }
 
 .sub-sub-list-item {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .sub-sub-sub-list {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    display: none;
+    background-color: rgb(50, 15, 2);
+width: inherit;
+  }
+
+  .sub-sub-list-item:hover > .sub-sub-sub-list {
+    display: block;
+  }
+
+  .sub-sub-sub-list-item {
     width: 100%;
     box-sizing: border-box;
   }
