@@ -45,7 +45,7 @@
     left: 100%;
     background-color: rgb(94, 31, 8);
     top: 0;
-    width: inherit;
+    /* width: inherit; */
 }
 
 .sub-list-item:hover > .sub-sub-list {
@@ -63,7 +63,7 @@
     left: 100%;
     display: none;
     background-color: rgb(50, 15, 2);
-width: inherit;
+/* width: inherit; */
   }
 
   .sub-sub-list-item:hover > .sub-sub-sub-list {
@@ -73,4 +73,5 @@ width: inherit;
   .sub-sub-sub-list-item {
     width: 100%;
     box-sizing: border-box;
+    white-space: nowrap;
   }
