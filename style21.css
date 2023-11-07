@@ -31,7 +31,7 @@
 }
 
 .list-item:hover > .sub-list {
-    display: block;
+  display: block;
 }
 
 .sub-list-item {
@@ -40,38 +40,68 @@
 }
 
 .sub-sub-list {
-    position: absolute;
-    display: none;
-    left: 100%;
-    background-color: rgb(94, 31, 8);
-    top: 0;
-    /* width: inherit; */
+  position: absolute;
+  display: none;
+  left: 100%;
+  background-color: rgb(94, 31, 8);
+  top: 0;
+  /* width: inherit; */
 }
 
 .sub-list-item:hover > .sub-sub-list {
-    display: block;
+  display: block;
 }
 
 .sub-sub-list-item {
-    width: 100%;
-    box-sizing: border-box;
-  }
+  width: 100%;
+  box-sizing: border-box;
+}
 
-  .sub-sub-sub-list {
-    position: absolute;
-    top: 0;
-    left: 100%;
-    display: none;
-    background-color: rgb(50, 15, 2);
-/* width: inherit; */
-  }
+.sub-sub-sub-list {
+  position: absolute;
+  top: 0;
+  left: 100%;
+  display: none;
+  background-color: rgb(50, 15, 2);
+  /* width: inherit; */
+}
 
-  .sub-sub-list-item:hover > .sub-sub-sub-list {
-    display: block;
-  }
+.sub-sub-list-item:hover > .sub-sub-sub-list {
+  display: block;
+}
 
-  .sub-sub-sub-list-item {
-    width: 100%;
-    box-sizing: border-box;
-    white-space: nowrap;
-  }
+.sub-sub-sub-list-item {
+  width: 100%;
+  box-sizing: border-box;
+  white-space: nowrap;
+}
+
+/* second part */
+
+body {
+  font-family: sans-serif;
+}
+
+p {
+  color: blue;
+}
+
+p::first-letter {
+  color: red;
+  font-family: serif;
+  font-size: 2em;
+}
+
+p::first-line {
+    background-color: blanchedalmond;
+}
+
+p::selection {
+    background-color: rgba(95, 158, 160, 0.613);
+    color: aqua;
+}
+
+input::placeholder {
+    background-color: deeppink;
+    color: blue;
+}
