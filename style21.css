@@ -93,15 +93,27 @@ p::first-letter {
 }
 
 p::first-line {
-    background-color: blanchedalmond;
+  background-color: blanchedalmond;
 }
 
+p::before,
+p::after {
+  content: ' ';
+  display: inline-block;
+  color: red;
+  font-size: 3em;
+  background-color: coral;
+  width: 20px;
+  height: 20px;
+}
+
+
 p::selection {
-    background-color: rgba(95, 158, 160, 0.613);
-    color: aqua;
+  background-color: rgba(95, 158, 160, 0.613);
+  color: aqua;
 }
 
 input::placeholder {
-    background-color: deeppink;
-    color: blue;
+  background-color: deeppink;
+  color: blue;
 }
