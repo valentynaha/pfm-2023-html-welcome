@@ -85,3 +85,10 @@ background-color: blue;
   padding: 0.8em 2.5em;
   margin-top: auto;
 }
+
+.button:hover {
+    cursor: pointer;
+    box-shadow: 15px 19px 5px -4px rgba(115,108,108,0.37);
+    -webkit-box-shadow: 15px 19px 5px -4px rgba(115,108,108,0.37);
+    -moz-box-shadow: 15px 19px 5px -4px rgba(115,108,108,0.37);
+}
