@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    /* justify-content: center; */
+  border: 2px solid black;
+}
+
+.item {
+ width: 80px;
+  height: 80px;
+  background-color: rgb(239, 233, 41);
+  color: white;
+  font-size: 2em;
+  border: 1px solid red;
+  text-align: center;
+}
+
+.first {
+justify-content: space-between;
+background-color: blue;
+}
+
+.second {
+    justify-content: space-around;
+    background-color: darkorange;
+}
+
+.third {
+    justify-content: space-evenly;
+    background-color: deeppink;
+}
